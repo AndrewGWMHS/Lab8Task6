@@ -179,6 +179,25 @@ public class InputHelper {
         return input;
     }
 
+    public static void prettyHeader (String msg) {
+        for(int i = 0; i <= 60; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
+        System.out.print("***");
+        for(int i = 0; i <= 30 - msg.length(); i++) {
+            System.out.print(" ");
+        }
+        System.out.print(msg);
+        for(int i = 0; i <= 30 - (msg.length()); i++) {
+            System.out.print(" ");
+        }
+        System.out.print("***");
+        System.out.println();
+        for(int i = 0; i <= 60; i++) {
+            System.out.print("*");
+        }
+    }
 
 
 }
