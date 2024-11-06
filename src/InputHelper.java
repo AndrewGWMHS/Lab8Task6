@@ -185,11 +185,11 @@ public class InputHelper {
         }
         System.out.println();
         System.out.print("***");
-        for(int i = 0; i <= 30 - msg.length(); i++) {
+        for(int i = 0; i <= 26 - msg.length()/2; i++) {
             System.out.print(" ");
         }
         System.out.print(msg);
-        for(int i = 0; i <= 30 - (msg.length()); i++) {
+        for(int i = 0; i <= 26 - (msg.length()/2); i++) {
             System.out.print(" ");
         }
         System.out.print("***");

@@ -1,5 +1,5 @@
 public class PrettyHeader {
     public static void main(String[] args) {
-        InputHelper.prettyHeader("Welcome");
+        InputHelper.prettyHeader("=sfoidsfidsfsdfsd");
     }
 }
